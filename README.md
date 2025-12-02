@@ -34,3 +34,8 @@ Lépések:
 Lépések:
 - Futtasd le a következő parancsot a projekt gyökér könyvtárában:
   python3 -m build
+# Docker image buildelése
+docker image build -t scopryx/hello:v1 . 
+
+# Docker image futtatása
+docker run -p 8000:8000 scopryx/hello:v1
