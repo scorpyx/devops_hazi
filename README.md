@@ -59,7 +59,7 @@ docker image build -t scopryx/hello:v1 .
 # Docker image futtatása
 docker run -p 8000:8000 scopryx/hello:v1
 # DockerHub
-Minden release-ből egy docker image a csabika7/gde_devops repository-ba kerül feltöltésre.
+Minden release-ből egy docker image a scorpyx/devops_hazi repository-ba kerül feltöltésre.
 DockerHub URL: https://hub.docker.com/r/scorpyx/devop_hazi
 
 A docker image lehúzása a következő paranccsal lehetséges:
